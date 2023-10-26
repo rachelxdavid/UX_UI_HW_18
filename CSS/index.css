@@ -1,0 +1,146 @@
+nav {
+  height: 50px;
+  background-color: #B6D1E5;
+}
+.nav-elements {
+  text-align: right;
+}
+.inline-block {
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+  vertical-align: middle;
+  color: #1A315D;
+  font-size: 18px
+}
+.left {
+  float: left;
+  height: 400px;
+  background-color: #B6D1E5;
+  width: 45%;
+  text-align: left;
+}
+.right {
+  float: left;
+  background-color: #B6D1E5;
+  height: 400px;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block;
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
+}
+h1 {
+  color: #1A315D;
+  font-size: 60px;
+  font-family: 'Young Serif', serif;
+  margin-left: 20%;
+}
+p {
+  color: #1A315D;
+  font-size: 20px;
+  margin-left: 20%;
+}
+img {
+  margin-bottom: 10px;
+  width: 70%
+}
+.myWork {
+  background-color: #FFECDF;
+}
+.myWork h1 {
+  margin-left: 40%;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+.myWork h3 {
+text-align: center;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 1fr
+}
+.gridItem {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 10%;
+  color: #1A315D;
+}
+.gridItem button {
+  background-color: #F05349;
+  color: #FFECDF;
+  outline:  #FFECDF;
+  width: 200px;
+}
+.content {
+Display: flex;
+flex-direction:column
+}
+.gridItem img {
+  margin-bottom: 10px;
+  width: 400px;
+  padding-right: 300px;
+}
+.mySkills {
+  text-align: center;
+  background-color: #8A8AB7;
+}
+.mySkills h1 {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  color: #1A315D;
+}
+.mySkills h3 {
+  color:#1A315D;
+  font-weight: bold;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.skillOne {
+  Width: 33%;
+}
+.skillOne p {
+margin-right: 60px;
+color:#1A315D;
+}
+.skillTwo {
+  Width: 33%;
+}
+.skillTwo p {
+  margin-right: 60px;
+  color:#1A315D;
+}
+.skillThree {
+  Width: 33%;
+}
+.skillThree p {
+  margin-right: 60px;
+  color:#1A315D;
+}
+footer {
+  background-color: #1A315D; 
+  text-align: center;
+  color: #F8E4D7;
+  height: 50px;
+  width: 100%;
+  clear: both;
+}
+.footer-items .inline-block {
+  color: #FFECDF;
+}
+
